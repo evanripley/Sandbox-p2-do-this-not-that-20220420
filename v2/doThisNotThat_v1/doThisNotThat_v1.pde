@@ -63,7 +63,7 @@ void setup()
   //String[] fontList = PFont.list(); //To list all fonts available on system
   println("Start of Console");
   //printArray(fontList); //For listing all possible fonts to choose, then createFont
-  buttonFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
+  buttonFont = createFont ("Comic Sans MS", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
 }//End setup
 //
 void draw()
