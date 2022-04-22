@@ -1,5 +1,4 @@
-void population()
-{
+void population() {
   //Population
   buttonX1 = appWidth*1/4;
   buttonY1 = appHeight*3/4;
@@ -23,4 +22,5 @@ void population()
   y = ellipseRectYCenter;
   xDiameter = ellipseXDiameter;
   yDiameter = ellipseYDiameter;
-}
+  //
+}//End population

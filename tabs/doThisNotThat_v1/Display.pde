@@ -1,9 +1,6 @@
-int appWidth, appHeight
-
-void displayOrientation()
-{
-  //Display Geometry
-  fullScreen(); //displayWidth, displayHeight
+int appWidth, appHeight;
+//
+void displayOrientation() {
   //Display Orientation: Landscape, not portrait nor square
   println (width, height, displayWidth, displayHeight);
   //Swap display key variables for testing
@@ -18,8 +15,8 @@ void displayOrientation()
     println("Good to Go");
   } else { //Break our app if not landscape
     println(instruct);
-    appWidth*=0;
+    appWidth*=0; //appWidth = appWidth*0
     appHeight*=0;
-  }
+  } 
   println("App Geometry is:", "\tApp Width:", appWidth, "\t\tApp Height:", appHeight);
-}
+}//End displayOrientation
